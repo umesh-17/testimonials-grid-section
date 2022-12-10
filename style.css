@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alexandria:wght@300&family=Fraunces:opsz,wght@9..144,700&family=Lato&family=Open+Sans:wght@300&family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300;500&display=swap');
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.header2 {
+    opacity: 50%;
+}
+
+.headtext1 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.headtext2 {
+    opacity: 70%;
+}
+
+.name1 {
+    font-size: 14px;
+}
+
+.hello2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.box2 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.box3 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.box4 {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.box5 {
+    background-color: hsl(0, 0%, 100%);
+    width: 25rem;
+}
+
+@media (max-width: 351px) and (min-width: 200px) {
+    .mainbody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maingrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 50%;
+        height: auto;
+    }
+
+    .box2 {
+        display: none;
+        width: 50%;
+        height: auto;
+    }
+
+    .box3 {
+        width: 50%;
+        height: auto;
+    }
+
+    .box4 {
+        width: 50%;
+        height: auto;
+    }
+
+    .box5 {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 457px) {
+    .mainbody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maingrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 70%;
+        height: auto;
+    }
+
+    .box2 {
+        display: none;
+        width: 70%;
+        height: auto;
+    }
+
+    .box3 {
+        width: 70%;
+        height: auto;
+    }
+
+    .box4 {
+        width: 70%;
+        height: auto;
+    }
+
+    .box5 {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (min-width: 458px) and (max-width: 478px) {
+    .mainbody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maingrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 90%;
+        height: auto;
+    }
+
+    .box2 {
+        display: none;
+        width: 90%;
+        height: auto;
+    }
+
+    .box3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .box4 {
+        width: 90%;
+        height: auto;
+    }
+
+    .box5 {
+        width: 90%;
+        height: auto;
+    }
+}
